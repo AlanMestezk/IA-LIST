@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3em;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 12px 0;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    /* Adiciona a sombra */
+    height: 75px;
+    margin-bottom: 40px;
+    border-radius: 22px 0px 22px 0;
+    transition: transform 0.8s ease;
+}
+
+.card:hover {
+    transform: scale(1.1)
+}
+
+.divText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+}
+
+.logoIa {
+    width: 140px;
+}
+
+.title {
+    font-size: 16px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: black;
+}
+
+.button {
+    width: 150px;
+    height: 30px;
+    background-color: #61D3FF;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: solid #0199b41c 2px;
+    cursor: pointer;
+    animation: 4s;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 13px;
+    transition: background-color 0.8s ease, background-image 0.8s ease, border 0.8s ease;
+}
+
+.button:hover {
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    border: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .logoIa {
+        width: 90px;
+    }
+    .title {
+        font-size: 10px;
+    }
+    .button {
+        width: 90px;
+        height: 40px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 522px) {
+    .button {
+        width: 60px;
+        height: 25px;
+        font-size: 8px;
+    }
+}
