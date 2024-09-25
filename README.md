@@ -7,3 +7,6 @@
 - **React** com **TypeScript** e **Vite**: O projeto foi criado utilizando essas tecnologias para aproveitar ao máximo sua performance e funcionalidades modernas.
 - **CSS Modules**: Para a estilização, foi utilizado CSS Modules, encapsulando os estilos de forma prática e eficaz, garantindo modularidade e evitando conflitos de estilos.
 
+## Link do site:
+- https://ia-list.vercel.app
+
